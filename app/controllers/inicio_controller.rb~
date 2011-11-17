@@ -1,0 +1,6 @@
+class InicioController < ApplicationController
+  def index
+     redirect_to "/alumno/login"
+  end
+
+end

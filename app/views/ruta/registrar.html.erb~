@@ -1,0 +1,109 @@
+<div id='wrap'>
+   <div id='menu'> 
+	<div class="menu">
+ <div id="name_app"><h2>Carpooling</h2></div>
+        <ul>
+       
+<li><a href="/carpooling" >Inicio</a></li>
+<li><a href="/alumno/registrar" >Registrar Ruta</a></li>
+<li><a href="/buscar/ruta" >Buscar ruta</a></li>
+<li><a href="#" class='current'>Registrar Ruta</a></li>
+<li><a href="/">Salir</a></li>
+</ul>
+<br style="clear:left"/>
+</div></div>
+   <div id='content-alumno' class='co'>
+   <form> 
+   	<fieldset>
+    	<legend></legend>
+        <dl>
+           <dt><label for="email">Distrito Origen:</label></dt>
+          <dd>
+             <div  >
+           <div  >
+             </div><select  name="languages" id="languages"  style="width:220px;" >
+                 <option value="Spanish" selected>Miraflores</option>
+                	<option value="English">Los Olivos</option>
+                    <option value="French">San Martin de Porres</option>
+                   
+                    <option value="Italian">Italian</option>
+                   
+                </select></div></dd>
+        </dl>
+<dl>
+           <dt><label for="email">Ref. Origen:</label></dt>
+          <dd><img src="img/0.png" class="NFTextLeft"><div class="NFTextCenter"><input type="text" name="email" id="email" size="32" maxlength="128" class="NFText"></div><img src="img/0.png" class="NFTextRight"></dd>
+        </dl>
+<dl>
+           <dt><label for="email">Distrito Destino:</label></dt>
+          <dd>
+             <div  >
+           <div  >
+             </div><select  name="languages" id="languages"  style="width:220px; " >
+                 <option value="Italian">Malvinas</option>
+                <option value="English">Los Olivos</option>
+                    <option value="French">San Martin de Porres</option>
+                    <option value="Spanish">Miraflores</option>
+                    
+                   
+                </select></div></dd>
+        </dl>
+<dl>
+           <dt><label for="email">Ref. Destino:</label></dt>
+          <dd><img src="img/0.png" class="NFTextLeft"><div class="NFTextCenter"><input type="text" name="email" id="email" size="32" maxlength="128" class="NFText"></div><img src="img/0.png" class="NFTextRight"></dd>
+        </dl>
+      <dl>
+        	<dt><label for="comments">Tags de ruta</label></dt>
+            <dd><img src="img/0.png" class="NFTextLeft"><div class="NFTextCenter"><input type="text" name="email" id="email" size="32" maxlength="128" class="NFText"></div><img src="img/0.png" class="NFTextRight"></dd>
+        </dl>
+        <dl>
+           <dt><label for="email">Dia:</label></dt>
+          <dd>
+             <div  >
+           <div  >
+             </div><select  name="languages" id="languages"  style="width:220px;" >
+                	<option value="English">Lunes</option>
+                    <option value="French">Martes</option>
+                    <option value="Spanish">Miercoles</option>
+                    <option value="Italian">Jueves</option>
+		<option value="Spanish">Viernes</option>
+                    <option value="Italian">Sabado</option>
+                   
+                </select></div></dd>
+        </dl>
+             <dl>
+           <dt><label for="email">Horario:</label></dt>
+          <dd>
+             <div  >
+           <div  >
+             </div><select  name="languages" id="languages"  style="width:220px;" >
+                        <option value="English">08:00 a 09:00am</option>
+                	<option value="English">10:00 a 11:00am</option>
+                    <option value="French">11:00 a 12:00pm</option>
+                    <option value="Spanish">01:00 a 02:00pm</option>
+                    <option value="Italian">03:00 a 04:00pm</option>
+		<option value="Spanish">05:00 a 06:00pm</option>
+                    <option value="Italian">07:00 a 08:00pm</option>
+ 		<option value="Italian">09:00 a 10:00pm</option>
+		<option value="Italian">11:00 a 12:00pm</option>
+                   
+                </select></div></dd>
+        </dl>
+       
+        <dl>
+           <dt><label for="email" style='padding-top:0'>Activada</label></dt>
+          <dd><img src="img/0.png" class="NFTextLeft"><input type="checkbox" name="email" id="email" size="32" maxlength="128" class="NFText"><img src="img/0.png" class="NFTextRight"></dd>
+        </dl> 
+        <dl>
+            <dt><label for="email">&nbsp;</label></dt>
+    	<dd><img class="NFButtonLeft" src="img/0.png"><input type="submit" name="submit" id="submit" value="Guardar" class="NFButton"><img src="img/0.png" class="NFButtonRight"></dd>
+        </dl>
+            
+         
+
+    </fieldset>
+
+   </form>     
+   </div>
+   <div id='footer'>Copyright upc-curso-taller-de-desarrollo-web @2011</div>
+</div>
